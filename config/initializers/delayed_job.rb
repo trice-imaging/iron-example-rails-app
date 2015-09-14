@@ -14,5 +14,5 @@ Delayed::IronMqBackend.delay = 0  # Time to wait before message will be availabl
 Delayed::IronMqBackend.timeout = 5.minutes # The time in seconds to wait after message is taken off the queue, before it is put back on. Delete before :timeout to ensure it does not go back on the queue.
 Delayed::IronMqBackend.expires_in = 7.days # After this time, message will be automatically removed from the queue.
 Delayed::IronMqBackend.error_queue = 'error_queue' # The failed jobs will be placed into the error queue
-Delayed::IronMqBackend.default_queue = 'default' # Specify a default queue name
-Delayed::IronMqBackend.queues = ['default', 'uber'] # The queues that you want your job to run in. All queues should have been specified except default one.
+Delayed::IronMqBackend.default_queue = 'uber' # Specify a default queue name
+# Delayed::IronMqBackend.queues = ['default', 'uber'] # The queues that you want your job to run in. All queues should have been specified except default one.
