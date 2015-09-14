@@ -1,5 +1,5 @@
 class TestJob < ActiveJob::Base
-  queue_as :default
+  queue_as :uber
 
   def perform(options)
     status = Status.find(options.fetch('status_id'))
