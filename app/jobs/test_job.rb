@@ -1,8 +1,11 @@
 class TestJob < ActiveJob::Base
-  queue_as :uber
+  # queue_as :uber
 
   def perform(options)
     status = Status.find(options.fetch('status_id'))
+
+    sleep(61)
+
     status.update(runs: status.runs + 1)
 
     if options.fetch('should_fail')
