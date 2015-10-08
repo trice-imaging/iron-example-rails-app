@@ -33,8 +33,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'delayed_job', '~> 4.0.6'
-# gem 'delayed_job_ironmq', git: 'https://github.com/sunloverz/delayed_job_ironmq.git', branch: 'v3'
-gem 'delayed_job_ironmq', git: 'https://github.com/iron-io/delayed_job_ironmq.git', branch: 'v3'
+gem 'delayed_job_ironmq', git: 'https://github.com/sunloverz/delayed_job_ironmq.git', branch: 'v3'
+# gem 'delayed_job_ironmq', git: 'https://github.com/iron-io/delayed_job_ironmq.git', branch: 'v3'
 
 
 group :development, :test do

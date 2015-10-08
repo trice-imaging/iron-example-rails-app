@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/iron-io/delayed_job_ironmq.git
-  revision: f8c07427abc2108912fc046daca7100a5fa4e591
+  remote: https://github.com/sunloverz/delayed_job_ironmq.git
+  revision: 1748554ee0b65bc1f2ce538867a6e802c51f300f
   branch: v3
   specs:
     delayed_job_ironmq (2.0.0.pre1)
